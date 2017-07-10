@@ -222,6 +222,17 @@ encoding@^0.1.11:
   dependencies:
     iconv-lite "~0.4.13"
 
+envify@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/envify/-/envify-4.1.0.tgz#f39ad3db9d6801b4e6b478b61028d3f0b6819f7e"
+  dependencies:
+    esprima "^4.0.0"
+    through "~2.3.4"
+
+esprima@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.0.tgz#4499eddcd1110e0b218bacf2fa7f7f59f55ca804"
+
 events@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/events/-/events-1.1.1.tgz#9ebdb7635ad099c70dcc4c2a1f5004288e8bd924"
@@ -509,6 +520,13 @@ react-addons-create-fragment@^15.0.0:
   version "15.3.2"
   resolved "https://registry.yarnpkg.com/react-addons-create-fragment/-/react-addons-create-fragment-15.3.2.tgz#0e589c8c7add0e5db5db48367b5167cbed9c5852"
 
+react-addons-pure-render-mixin@^15.6.0:
+  version "15.6.0"
+  resolved "https://registry.yarnpkg.com/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.6.0.tgz#84ba028630cdf89239d16f1bb4d98fe865651813"
+  dependencies:
+    fbjs "^0.8.4"
+    object-assign "^4.1.0"
+
 "react-addons-shallow-compare@^0.14.0 || ^15.0.0":
   version "15.3.2"
   resolved "https://registry.yarnpkg.com/react-addons-shallow-compare/-/react-addons-shallow-compare-15.3.2.tgz#c9edba49b9eab44d0c59024d289beb1ab97318b5"
@@ -527,6 +545,19 @@ react-event-listener@^0.4.0:
   dependencies:
     react-addons-shallow-compare "^0.14.0 || ^15.0.0"
     warning "^3.0.0"
+
+react-meteor@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/react-meteor/-/react-meteor-0.0.5.tgz#0ae764d9bbf6c93d52f37e5fbb83bffaf333a70f"
+  dependencies:
+    react "~0.8"
+    react-raf-batching "~0.0.0"
+
+react-raf-batching@~0.0.0:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/react-raf-batching/-/react-raf-batching-0.0.1.tgz#2612ffe094a54817db9a28fbe9b9d2d090b8a1a0"
+  dependencies:
+    react "~0.8"
 
 react-router@^3.0.0:
   version "3.0.0"
@@ -551,6 +582,10 @@ react@^15.3.2:
     fbjs "^0.8.4"
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
+
+react@~0.8:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-0.8.0.tgz#9aef0dbc3e05b44d96139cdbdaa5d727b0506e1e"
 
 readable-stream@^2.0.2, readable-stream@^2.0.6:
   version "2.1.5"
@@ -609,6 +644,10 @@ string_decoder@^0.10.31, string_decoder@~0.10.x:
 symbol-observable@^0.2.4:
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-0.2.4.tgz#95a83db26186d6af7e7a18dbd9760a2f86d08f40"
+
+through@~2.3.4:
+  version "2.3.8"
+  resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
 
 timers-browserify@^1.4.2:
   version "1.4.2"
