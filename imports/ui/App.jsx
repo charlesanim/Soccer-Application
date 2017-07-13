@@ -92,7 +92,7 @@ export default class App extends Component {
             title="Soccer Application"
             iconClassNameRight="muidocs-icon-navigation-expand-more"
             showMenuIconButton={false}
-            style={{backgroundColor: '#0277BD'}}> //csss style for AppBar
+            style={{backgroundColor: '#0277BD'}}> 
             <AccountsWrapper />
           </AppBar>
           <div className="row">
