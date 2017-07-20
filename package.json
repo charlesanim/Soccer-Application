@@ -2,8 +2,7 @@
   "name": "soccer-app",
   "private": true,
   "scripts": {
-    "start": "meteor run",
-    "start": "webpack-dev-server"
+    "start": "meteor run"
   },
   "dependencies": {
     "bcrypt": "^1.0.2",
@@ -18,8 +17,7 @@
     "react-dom": "^15.3.2",
     "react-meteor": "^0.0.5",
     "react-router": "^3.0.0",
-    "react-tap-event-plugin": "^1.0.0",
-    "webpack-dev-server": "^2.5.1"
+    "react-tap-event-plugin": "^1.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
